@@ -1,0 +1,23 @@
+staging:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  pool: 10
+  username: postgres
+  template: template1
+  password: password
+  database: development1
+  sslmode: disable
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  pool: 10
+  username: postgres
+  template: template1
+  password: password
+  database: development1
+  sslmode: disable
+test:
+  adapter: postgresql
+  database: travis_ci_test

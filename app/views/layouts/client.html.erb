@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= stylesheet_link_tag 'client', media: 'all' %>
+    <%= render 'layouts/head' %>
+  </head>
+  <body>
+    <%= render "layouts/show_environment" %>
+    <div class="social">
+      <ul>
+          <li><a href="https://github.com/KeoniGarner"><i class="fa fa-github"></i> GitHub</a></li>
+          <li><a href="https://stackoverflow.com/users/9837582/keoni-garner"><i class="fa fa-stack-overflow"></i> Stack Overflow</a></li>
+          <li><a href="https://linkedin.com/in/keonigarner"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+      </ul>
+    </div>
+    <%= yield %>
+  </body>
+</html>

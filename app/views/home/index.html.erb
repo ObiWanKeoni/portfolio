@@ -1,0 +1,13 @@
+<% content_for :head do -%>
+  <%= stylesheet_pack_tag "portfolio" %>
+<% end -%>
+
+<%= render "shared/default_client_settings" %>
+<div id="main-app"></div>
+<%= javascript_packs_with_chunks_tag "portfolio", "data-turbolinks-track": "reload" %>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
